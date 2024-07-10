@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const Admincontroler = require('../controler/admin')
+const Admincontroler = require('../controller/admin')
 
 
 /* GET home page. */
