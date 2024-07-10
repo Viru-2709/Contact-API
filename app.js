@@ -15,7 +15,7 @@ app.use(cors())
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://Viru:viru123@cluster0.xt4zi9h.mongodb.net/Contact-API')
+mongoose.connect('')
   .then(() => console.log('Connected!'))
   .catch((err)=>{
     console.log(err.message);
