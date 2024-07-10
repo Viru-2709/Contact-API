@@ -1,5 +1,5 @@
 var express = require('express');
-const Contactcontroler = require('../controler/contact')
+const Contactcontroler = require('../controller/contact')
 var router = express.Router();
 /* GET home page. */
 
